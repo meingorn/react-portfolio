@@ -10,8 +10,7 @@
     border:1px solid #eaeaea;
 }
 
-.portfolio_item h2 {
-    font-size: 24px;
+.portfolio_item h5 {
     margin: 20px 0 20px 0;
     text-align: right;
     padding-top: 250px;
@@ -19,10 +18,11 @@
     font-weight:bold;
 }
 
-.portfolio_item h2 a {
+.portfolio_item h5 a {
     font-size: 14px;
     text-decoration: none;
     font-weight: bold;
+		background-color: white;
 }
 
 .portfolio_item .role_wrapper {
@@ -56,42 +56,15 @@
     color: #a6a6a6;
 }
 
-/**
-* Individual
-*/
+ /*Individual*/
 
-.goldmans {
-	background:#fff url(assets/goldmans.jpg) top no-repeat;
+.chronicle {
+	background:#fff url(assets/chronicle.png) top no-repeat;
 }
 
-.orange {
-	background:#fff url(assets/orange.jpg) top no-repeat;
+.devcons {
+	background:#fff url(assets/devcons.png) top no-repeat;
 }
-
-.tesco {
-	background:#fff url(assets/tesco.png) top no-repeat;
-}
-
-.timeout {
-	background:#fff url(assets/timeout.png) top no-repeat;
-}
-
-.wiley {
-	background:#fff url(assets/wiley.png) top no-repeat;
-}
-
-.hellas {
-	background:#fff url(assets/hellas.png) top no-repeat;
-}
-
-.shipserv {
-	background:#fff url(assets/shipserv.png) top no-repeat;
-}
-
-.covestor {
-	background:#fff url(assets/covestor.png) top no-repeat;
-}
-
-.pwul {
-	background:#fff url(assets/pwul.jpg) top no-repeat;
+.spotagram {
+	background:#fff url(assets/spotagram.png) top no-repeat;
 }

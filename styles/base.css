@@ -32,7 +32,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Cutive Mono', monospace;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -427,7 +427,7 @@ a.pagination-item:hover {
    clear: both;
    height: 0;
  }
-     
+
 .clearfix { display: inline-block; }
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }

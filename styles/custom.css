@@ -63,7 +63,7 @@ ul.clients li {
    box-shadow:1px 1px 1px #ccc;
 }
 
-ul.clients li.goldmans-logo {
+/*ul.clients li.goldmans-logo {
    background: url('assets/goldmans-logo.jpg') no-repeat;
    width:124px;
 }
@@ -96,7 +96,7 @@ ul.clients li.covestor-logo {
 ul.clients li.shipserv-logo {
    background: url('assets/shipserv-logo.jpg') no-repeat;
    width:218px;
-}
+}*/
 
 /**
 * Skill Boxes on Home Page
@@ -143,8 +143,8 @@ ul.clients li.shipserv-logo {
    color:#fff;
    padding:0.2em 1em 0.2em;
    margin:0.2em;
-   clear:both; 
-   font-style:normal; 
+   clear:both;
+   font-style:normal;
    box-shadow:1px 1px 1px #ccc;
 }
 
