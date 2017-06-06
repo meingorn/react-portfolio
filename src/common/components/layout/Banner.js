@@ -7,6 +7,13 @@ class Banner extends Component {
     return (
 	    <div className="contact-banner">
       		<p>Contact me at </p>
+          <ul>
+            <li href="http://twitter.com/maximeingorn"></li>
+            <li ref="https://github.com/meingorn"></li>
+            <li href="https://www.linkedin.com/in/maximeingorn"></li>
+
+          </ul>
+
       	</div>
     );
   }

@@ -26,7 +26,7 @@ class About extends Component {
 
             <p> After college I returned to my home city where I used my Mandarin mostly to sell ads at Yelp, rising the ranks to the national team. After two years I knew it was time to follow my creative calling and start contributing to the internet that enabled me to listen to so much music and find the all the best food. I attended a bootcamp called the Flatiron School that got me up to speed in record time, and used that knowledge to build this site among other things. Now I am looking for work as a developer in hopes of contributing to something awesome.</p>
 
-            <p>If you want to reach me, I check <a href="https://www.linkedin.com/in/maximeingorn/">LinkedIn</a> regularly. If you want to learn more about what goes on in my head, Flatiron School forced me to start a <a href="http://szechuansauce.info/">blog</a> so you can check that out. Probably better to just reach out directly though.</p>
+            <p>If you want to reach me, I check <a href="https://www.linkedin.com/in/maximeingorn/">LinkedIn</a> regularly. If you want to learn more about what goes on in my head, Flatiron School had me start a <a href="http://szechuansauce.info/">blog</a> so you can check that out. Probably better to just reach out directly though.</p>
 
             <p> In my free time I enjoy cooking, eating good food, drinking craft beer and coffee. I{`'`}m working on side projects related to those things so if you want to collaborate, hit me up.</p>
 
@@ -35,10 +35,11 @@ class About extends Component {
       	  	<p>This site is a single page web app built with React and Redux. It is Isomorphic (all the code renders on the server and well as the browser) which has the advantage of initially rendering quicker and being indexed by search engines.</p>
 
       	  	<p>This site is based on a site designed by Callum Rimmer, check out <a href="https://github.com/caljrimmer/portfolio-redux-app">his repo here</a>.</p>
+            <br /><br />
 
 
 	      </div>
-        <div className='youtube'>
+        <div>
 
                     <h3>关于我</h3>
 
@@ -50,8 +51,7 @@ class About extends Component {
                     <h3>关于网站</h3>
                     <p>该网站是使用React和Redux构建的单页网络应用程序。它是同构（所有的代码呈现在服务器上，以及浏览器），其优点是最初渲染更快，并被搜索引擎索引。该网站是基于Callum Rimmer设计的网站，在这里查看他的回购。</p>
         <img /><br/>
-          <iframe width="500" height="280" src="https://www.youtube.com/embed/7-txtR9SCmA?start=237" frameborder="0" allowfullscreen></iframe>
-          <p>(proof of drum skills)</p>
+
         </div>
       </div>
 
@@ -59,10 +59,5 @@ class About extends Component {
   }
 }
 
-About.propTypes = {
-  results: PropTypes.array.isRequired,
-  error: PropTypes.object.isRequired,
-  isFetching: PropTypes.bool.isRequired
-};
 
 export default About;

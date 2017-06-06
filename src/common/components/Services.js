@@ -12,9 +12,14 @@ class Services extends Component {
 
       	  <div className="services">
 
-      	  	<h3>Prototypes/MVPs</h3>
+      	  	<h3>Contact</h3>
 
-      	  	<p>I can build you a prototype or a minimal viable product (MVP)for your idea. </p>
+           Visit <a href="https://github.com/meingorn">My GitHub</a><br/>
+           Visit <a href="https://www.linkedin.com/in/maximeingorn/">My LinkedIn</a><br/>
+           <a href="https://github.com/meingorn">查看我的源代码</a><br/>
+          <a href="https://www.linkedin.com/in/maximeingorn/">连接我在LinkedIn</a><br/>
+
+        
 
 	      </div>
 
