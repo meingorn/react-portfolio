@@ -14,11 +14,32 @@ class Home extends Component {
       showContact: false
     };
     this.eventToggleSidebar = this.eventToggleSidebar.bind(this);
+    this.handleAboutClick = this.handleAboutClick.bind(this);
+    this.handlePortfolioClick = this.handlePortfolioClick.bind(this);
+    this.handleContactClick = this.handleContactClick.bind(this);
   }
 
   eventToggleSidebar(e) {
     e.preventDefault();
     this.props.toggleSidebar(!this.props.layout.sidebarOpen);
+  }
+
+  handleAboutClick() {
+    this.setState(prevState => ({
+      showAbout: !prevState.showAbout,
+    }))
+  }
+
+  handlePortfolioClick() {
+    this.setState(prevState => ({
+      showPortfolio: !prevState.showPortfolio,
+    }))
+  }
+
+  handleContactClick() {
+    this.setState(prevState => ({
+      showContact: !prevState.showContact,
+    }))
   }
 
   render() {
@@ -30,11 +51,11 @@ class Home extends Component {
   			<div className="post banner">
           <h3 className="post-title">I{`'`}m an NYC-based web developer who likes to build things with React,{` `} JavaScript and Rails. I{`'`}m interested in using the power of the internet to improve our lives. I also enjoy cooking,{` `} coffee,{` `} and music. </h3>
           <div className="homeExpander">
-            <a href="#" onClick={() => this.setState({ showAbout: false } ? { showAbout: true } : { showAbout: false })}> More about me ▼ </a>{this.state.showAbout ? <About /> : null}
+            <a href="#" onClick={this.handleAboutClick}> More about me ▼ </a>{this.state.showAbout ? <About /> : null}
             <br />
-            <a href="#" onClick={() => this.setState({ showPortfolio: false } ? { showPortfolio: true } : { showPortfolio: false })}> My portfolio ▼ </a>{this.state.showPortfolio ? <Portfolio /> : null}
+            <a href="#" onClick={this.handlePortfolioClick}> My portfolio ▼ </a>{this.state.showPortfolio ? <Portfolio /> : null}
             <br />
-            <a href="#" onClick={() => this.setState({ showContact: false } ? { showContact: true } : { showContact: false })}> Contact Me ▼ </a>{this.state.showContact ? <Services /> : null}
+            <a href="#" onClick={this.handleContactClick}> Contact Me ▼ </a>{this.state.showContact ? <Services /> : null}
           </div>
 			  </div>
 
