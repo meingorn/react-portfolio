@@ -26,14 +26,13 @@
 }
 
 .portfolio_item .role_wrapper {
-    border-bottom: 1px dotted #ccc;
     position: relative;
     margin-bottom:20px;
 }
 
 .portfolio_item .role {
     float: left;
-    color: #1db7a9;
+    color: #000080;
     font-size: 30px;
     font-weight: bold;
     text-transform:uppercase;
@@ -46,7 +45,7 @@
     font-size: 22px;
     font-weight: bold;
     margin: 10px;
-    color: #1db7a9;
+    color: #000080;
     line-height: 24px;
     text-align: right;
 }
