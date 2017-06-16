@@ -19,3 +19,18 @@ class Header extends Component {
 }
 
 export default Header;
+
+
+this.randomFunction() {
+  this.someArray.forEach(function(thing){
+    thing.foo
+  })
+}
+
+
+this.randomFunction() {
+     this.someArray.forEach((thing) => {
+       thing.foo = this
+     })
+   }
+ }

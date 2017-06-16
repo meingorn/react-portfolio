@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import { SocialIcon } from 'react-social-icons';
+
 
 class Banner extends Component {
 
@@ -6,14 +9,11 @@ class Banner extends Component {
 
     return (
 	    <div className="contact-banner">
-      		<p>Contact me at </p>
-          <ul>
-            <li href="http://twitter.com/maximeingorn"></li>
-            <li ref="https://github.com/meingorn"></li>
-            <li href="https://www.linkedin.com/in/maximeingorn"></li>
-
-          </ul>
-
+      <SocialIcon url="http://twitter.com/jaketrent" />
+            Visit <img className="img-responsive" href="https://github.com/meingorn" />
+            Visit <a href="https://www.linkedin.com/in/maximeingorn/">My LinkedIn</a>
+            <a href="https://github.com/meingorn">查看我的源代码</a>
+            <a href="https://www.linkedin.com/in/maximeingorn/">连接我在LinkedIn</a>
       	</div>
     );
   }
