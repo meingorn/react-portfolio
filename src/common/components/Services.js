@@ -8,7 +8,6 @@ class Services extends Component {
     return (
       <div>
         <h3>Contact</h3>
-      	<Banner />
       </div>
     );
   }

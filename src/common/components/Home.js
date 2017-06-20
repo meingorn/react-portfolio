@@ -30,13 +30,15 @@ class Home extends Component {
     }))
   }
 
-  handlePortfolioClick() {
+  handlePortfolioClick(e) {
+    e.preventDefault();
     this.setState(prevState => ({
       showPortfolio: !prevState.showPortfolio,
     }))
   }
 
-  handleContactClick() {
+  handleContactClick(e) {
+    e.preventDefault();
     this.setState(prevState => ({
       showContact: !prevState.showContact,
     }))
@@ -55,7 +57,7 @@ class Home extends Component {
             <br />
             <a href="#" onClick={this.handlePortfolioClick}> My portfolio ▼ </a>{this.state.showPortfolio ? <Portfolio /> : null}
             <br />
-            <a href="#" onClick={this.handleContactClick}> Contact Me ▼ </a>{this.state.showContact ? <Services /> : null}
+            <a href="#" onClick={this.handleContactClick}> Contact info ▼ </a>{this.state.showContact ? <Services /> : null}
           </div>
 			  </div>
 
