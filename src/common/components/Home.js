@@ -3,6 +3,8 @@ import Banner from './layout/Banner';
 import About from './About';
 import Portfolio from './Portfolio'
 import Services from './Services'
+import {ICON_NAME} from "react-icons/lib/md"
+
 
 class Home extends Component {
 
@@ -49,7 +51,6 @@ class Home extends Component {
     return (
 
       <div className="posts">
-
   			<div className="post banner">
           <h3 className="post-title">I{`'`}m an NYC-based web developer who likes to build things with React,{` `} JavaScript and Rails. I{`'`}m interested in using the power of the internet to improve our lives. I also enjoy cooking,{` `} coffee,{` `} and music. </h3>
           <div className="homeExpander">
@@ -60,7 +61,6 @@ class Home extends Component {
             <a href="#" onClick={this.handleContactClick}> Contact info ▼ </a>{this.state.showContact ? <Services /> : null}
           </div>
 			  </div>
-
   		</div>
 
     );

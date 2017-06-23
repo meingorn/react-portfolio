@@ -35,7 +35,7 @@ class About extends Component {
       	  	<p>This site is a single page web app built with React and Redux. It is Isomorphic (all the code renders on the server and well as the browser) which has the advantage of initially rendering quicker and being indexed by search engines.</p>
 
       	  	<p>This site is based on a site designed by Callum Rimmer, check out <a href="https://github.com/caljrimmer/portfolio-redux-app">his repo here</a>.</p>
-            <br /><br />
+            <br /><br /><br/>
 
 
 	      </div>
