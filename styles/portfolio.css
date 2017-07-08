@@ -58,12 +58,30 @@
  /*Individual*/
 
 .chronicle {
-	background:#fff url(assets/chronicle.png) top no-repeat;
+	background:#fff url(assets/chronicle.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 40em;
+	height: 22em;
+	margin: auto;
 }
 
 .devcons {
-	background:#fff url(assets/devcons.png) top no-repeat;
+	background:#fff url(assets/devcons.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 40em;
+	height: 22em;
+	margin: auto;
 }
 .spotagram {
-	background:#fff url(assets/spotagram.png) top no-repeat;
+	background:#fff url(assets/spotagram.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 40em;
+	height: 22em;
+	margin: auto;
 }

@@ -58,7 +58,7 @@ class Home extends Component {
             <br />
             <a href="#" onClick={this.handlePortfolioClick}> My portfolio ▼ </a>{this.state.showPortfolio ? <Portfolio /> : null}
             <br />
-            <a href="#" onClick={this.handleContactClick}> Contact info ▼ </a>{this.state.showContact ? <Services /> : null}
+            <a href="#" onClick={this.handleContactClick}> Contact ▼ </a>{this.state.showContact ? <Services /> : null}
           </div>
 			  </div>
   		</div>

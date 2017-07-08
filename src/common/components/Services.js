@@ -9,11 +9,10 @@ class Services extends Component {
   render () {
     return (
       <div>
-        <h3>Contact</h3>
-        <a href="https://github.com/meingorn" className="nav-link" target="_blank">
-          <i className="fa fa-angellist icon"></i>
-        </a>
-        <Banner />
+        <h5>You can reach me via: </h5>
+        <a href="https://www.linkedin.com/in/maximeingorn"> LINKEDIN </a>
+        <br />
+        <a href="https://github.com/meingorn"> GITHUB </a>
       </div>
     );
   }
